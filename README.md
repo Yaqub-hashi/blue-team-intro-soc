@@ -1,2 +1,17 @@
-# blue-team-intro-soc
-Blue Team analysis of TryHackMe Intro to SOC room.
+# Blue Team – Intro to SOC
+
+## Overview
+(TBD)
+
+## Scenario
+(TBD)
+
+## What Happened
+(TBD)
+
+## Indicators of Compromise
+(TBD)
+
+## Lessons Learned
+(TBD)
+

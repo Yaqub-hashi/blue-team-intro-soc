@@ -1,68 +1,62 @@
-# Blue-Team-Intro-SOC Portfolio Project
+# Blue Team – Intro to SOC (Blue Team Foundations)
 
 ## Overview
-This repository documents my hands-on learning from the Blue Team Introduction module (TryHackMe SOC Level 1).
-The purpose of this project is to demonstrate practical understanding of Security Operations Center (SOC) workflows, including alert triage, investigation methodology, incident response fundamentals, and defensive security operations.
+This repository documents my learning from the Blue Team Introduction module in the TryHackMe SOC Level 1 learning path. The purpose of this project is to build foundational understanding of how a Security Operations Center (SOC) operates, how alerts are triaged, and how analysts investigate suspicious activity.
 
-This project is structured as a portfolio showcase highlighting real-world blue team concepts, investigative thinking, and professional documentation practices
+The focus of this project is on defensive security fundamentals, analyst decision-making, and developing structured investigation thinking.
+
+
 
 
 ## Project Objectives
--Understand real SOC operational workflows
--Practice alert triage and severity prioritization
--Analyze suspicious activity using security telemetry
--Identify and document Indicators of Compromise (IOCs)
--Apply structured incident response methodology
--Strengthen defensive detection and investigation mindset
+- Understand basic SOC workflows and analyst responsibilities  
+- Practice alert triage and investigation reasoning  
+- Identify common Indicators of Compromise (IOCs)  
+- Develop a defensive security mindset  
+
 
 
 ## Skills Demonstrated
--SOC operational workflow comprehension
--Log analysis and evidence correlation
--Incident triage and prioritization techniques
--IOC identification and threat documentation
--Structured investigation methodology
--Defensive security mindset
--Professional security reporting practices
+- Basic understanding of SOC workflows  
+- Introductory alert triage concepts  
+- IOC identification fundamentals  
+- Investigation reasoning at entry level  
+- Defensive security awareness  
+
 
 ## Repository Structure
-blue-team-intro-soc/ 
-├── docs/        # SOC methodology and technical learning notes 
-├── playbooks/   # Investigation and triage playbooks 
-├── templates/   # Incident reports and case documentation templates 
-├── tools/       # Helper scripts (IOC extraction, data sanitization) 
+blue-team-intro-soc/
+├── screenshots/
+├── analysis.md
 └── README.md
 
+
 ## Scenario Summary
-Note: This repository does not include walkthrough answers or flags.
+The lab environment simulates a SOC environment where suspicious activity must be analyzed using security alerts and log-based information. The main focus of the scenario is understanding how analysts think, how investigations are structured, and how security events are evaluated.
 
-The lab environment simulates a real SOC scenario where suspicious activity must be investigated using log data and security telemetry sources.
-The primary focus is on understanding analyst decision-making processes, not simply obtaining lab answers.
-Key investigation goals included:
-- Identifying abnormal and suspicious behavior
-- Correlating events across multiple data sources
-- Assessing potential security impact
-- Practicing structured investigation workflows
 
-## Investigation Methodology
+## Basic Investigation Workflow
 The investigation process followed a professional SOC workflow:
-1. Alert review and initial triage
-2. Entity scoping (user, host, timeframe)
-3. Evidence correlation and validation
-4. IOC identification and documentation
-5. Impact assessment
-6. Formal documentation and reporting
-7. Lessons learned and detection improvement
+- Alert review and initial triage  
+- Identifying affected users or systems  
+- Reviewing available evidence  
+- Identifying potential IOCs  
+- Documenting findings  
 
-##Indicators of Compromise (Examples)
-During the investigation process, multiple IOC categories were evaluated, including:
-- Network indicators (IP addresses, domains)
-- Process execution behavior
-- Command-line activity patterns
-- Authentication anomalies
-- File-related artifacts
 
-Sensitive values have been intentionally excluded to ensure this repository remains public-safe.
+## Indicators of Compromise (Examples)
+Indicators of Compromise (Examples)
+
+During the investigation, common IOC categories were evaluated, including:
+
+- Suspicious authentication behavior  
+- Abnormal process execution patterns  
+- Network-related anomalies  
+
+Sensitive values have been excluded to keep this repository public-safe.
+
+
+
 
 ## Key Lessons Learned
 Important takeaways from this project:
@@ -73,22 +67,20 @@ Important takeaways from this project:
 - Detection logic must balance precision and noise reduction
 
 ## Tools and Technologies Used
-- TryHackMe SOC Level 1 platform
-- Windows event log analysis
-- Network telemetry analysis
-- SOC investigation methodologies
-- Markdown documentation
-- Python (basic automation and parsing concepts)
+- TryHackMe SOC Level 1 platform  
+- Basic log interpretation concepts  
+- SOC investigation methodologies  
+- Markdown documentation  
+
 
 ## Disclaimer 
 This repository is intended for educational and portfolio purposes only.
 All data has been sanitized and no sensitive, confidential, or real-world credentials are included.
 
 ## Author 
-Yaqub
-IT Security Engineering Student | Aspiring SOC Analyst / Blue Team Specialist
-Passionate about defensive security, threat detection, and SOC operations.
-Focused on building real-world blue team skills through hands-on labs, investigation workflows, and continuous technical development.
+Yaqub  
+IT Security Engineering Student  
+Focused on building foundational blue team skills through hands-on labs and security analysis practice.
 
 
 
